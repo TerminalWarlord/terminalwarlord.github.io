@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-header{
+    font-family: Lato;
+    text-transform: uppercase;
+    /* font-weight: bold; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fdf2e9;
+    height: 3.6rem;
+
+    /* padding: 0 3.2rem; */
+    /* width: fit-content; */
+}
+.main-header nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.4vw;
+    margin-right: 1.5vw;    
+}
+
+.nav-link:link,
+.nav-link:visited
+{
+    text-decoration: none;
+    color: #ff0164;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.3s;
+    /* background-color: #203554; */
+}
+
+.nav-link:hover,
+.nav-link:active{
+    display: inline-block;
+    color: #203554;
+    padding: 1rem .2rem;
+    /* border: 1rem solid #ff0164; */
+    background-color: #ff0164;
+}
+.logo{
+    height: 2.4rem;
+    text-align: center;
+    margin-left: 3vw;
+
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(255, 250, 250);
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 1rem;
+
+}
+#social_icons_mbl{
+    display: none;
+}
+
+
+.bio h2{
+    text-align: center;
+    font-size: 1.2rem;
+    /* width: max-content; */
+    /* margin: 0 auto; */
+    font-family: 'Raleway', sans-serif;
+}
+.bio p{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1rem;
+    
+}
+.profile-pic{
+    width: 100px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.dp{
+    height: 7.2rem;
+    border-radius: 50%;
+}
+
+
+
+/* LEFT SIDEBAR */
+.social-links-box{
+    margin-top: 1rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.social-links-box li{
+    margin-bottom: 0.6rem;
+    /* display: inline-block; */
+}
+.social-links{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ff0164;
+    color: #203554;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    padding: 1rem 3.2rem;
+    transition: all 0.3s;
+    border-radius: 0 2rem;
+    
+
+}
+.social-links:hover,
+.social-links:active
+{
+    color: #ff0164;
+    background-color: #203554;
+}
+
+#resume-btn{
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    padding: 0.5rem 1.8rem;
+    background-color: #ff0164;
+    border: none;
+    margin-top: 1rem;
+    color: white;
+    /* margin-bottom: 2rem; */
+}
+#resume-btn:hover{
+    background-color: #203554;
+    color: white;
+    /* font-size: 1rem; */
+    transition: all 0.3s;
+}
+.social-media-box{
+    margin-top: 2rem;
+    list-style: none;
+    font-size: 2.4rem;
+}
+.social-media-box li{
+    display: inline-block;
+}
+.social-media:link,
+.social-media:visited{
+    text-decoration: none;
+    color: #203554;
+}
+.social-media:hover,
+.social-media:active{
+    text-decoration: none;
+    color: #ff0164;
+    /* font-size: 2.8rem; */
+}
+.graduation{
+    display: flex;
+    justify-content: center;
+    padding: 0 10rem 0 10rem;
+    /* background-color: black; */
+}
+table{
+    border-collapse: collapse;
+    font-family: 'Raleway';
+    margin-bottom: 1rem;
+    overflow: hidden;
+    
+}
+
+th, td{
+    border: 0.0rem solid black;
+    padding: 10px 20px;
+    
+}
+h3{
+    /* display: inline-block; */
+    background-color: #fdf2e9;
+    text-transform: uppercase;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    font-family: 'Lato';
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.ins-img{
+    width: 6rem;
+    height: 6rem;
+    border: 0.3rem solid #ff0164;
+    border-radius: 50%;
+    padding: 1rem;
+}
+.insti-head{
+    background-color: #203554;
+    /* display: block; */
+    display: block;
+    padding: 1rem 2rem;
+    color: white;
+    font-family: 'Raleway', 'Lato';
+    position: relative;
+}
+.insti-head h4{
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+}
+.insti-head h5{
+    font-size: 0.9rem;
+    margin-bottom: 0.3rem;
+}
+.institute p{
+    font-size: 0.9rem;
+    margin: 0.4rem 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.institute{
+    /* margin-bottom: 10px; */
+    padding-bottom: 5.4rem;
+
+}
+.years{
+    /* display: flex; */
+    display: inline-block;
+    background-color: #ff0164;
+    padding: 0.2rem 1rem;
+    color: #203554;
+    position: absolute;
+    top: -15px;
+    right: -10px;
+}
+
+.progress {
+    /* display: inline-block; */
+    margin: 1rem auto;
+    padding: 0.2rem;
+    width: 100%;
+    max-width: 9.2rem;
+    border: 0.2rem solid #203554;
+    height: 0.7rem;
+    
+}
+
+.progress .progress__bar {
+    height: 100%;
+    width: 90%;
+    background-color: #ff0134;
+    
+}
+
+.languages{
+    display: flex;
+    justify-content: center;
+}
+.languages-box{
+    list-style: none;
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+}
+.languages-box li{
+    display: inline-block;
+}
+
+/* .date{
+    color: burlywood;
+    background-color: crimson;
+    padding: 5rem;
+    margin-left: 2rem;
+} */
+/* table{
+    display: flex;
+    justify-content: space-between;
+}
+.graduation table tr td{
+    border: 0.1rem solid black;
+    /* border-radius: 25%; */
+    /* padding: 10px; */
+
+footer{
+    background-color: #f1e8e1;
+    padding: 0.5rem 0 0.5rem 0;
+}
+.languages-box li img{
+    width: 50px;
+}
+.main-footer{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+#social_icons_mbl{
+    display: none;
+}
+.mbl_intro{
+    display: none;
+}
+@media only screen and (max-width: 600px){
+    /* .main-header ul{
+        font-size: 1rem;
+        gap: .6rem;
+    } */
+    .main-header{
+        font-size: .2rem;
+    }
+    .mbl_intro{
+        display: block;
+        font-family: 'Titillium Web', sans-serif;
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin: 1.2rem 0 1.4rem 0;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    #social_icons_pc{
+        display: none;
+    }
+    #social_icons_mbl{
+        display: block;
+    }
+    .nav-link:link,
+    .nav-link:visited
+    {
+        font-size: .8rem;
+    }
+    .social-links{
+        font-size: .9rem;
+        padding: 1rem 2rem;
+    }
+    .nav-link:hover,
+    .nav-link:active{
+        /* font-size: .2rem; */
+        border: none;
+        /* bac */
+    }
+    /* .container{
+        width: 90vw;
+        font-size: small;
+    } */
+}
